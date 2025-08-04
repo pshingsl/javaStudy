@@ -6,6 +6,7 @@ public class StringExample {
     String height = "82.3";
     String belt = "블루";
 
-    System.out.println("이름은 " + name + "이고 " + belt +"이며 몸무게는 "+ height+"kg입니다");
+    System.out.println("이름은 " + name + "이고 " +
+            belt +"이며 몸무게는 "+ height+"kg입니다.");
     }
 }
