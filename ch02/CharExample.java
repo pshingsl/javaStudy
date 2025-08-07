@@ -1,4 +1,4 @@
-package study.ch02;
+package javaStudy.ch02;
 
 public class CharExample {
     public static void main(String[] arg) {
