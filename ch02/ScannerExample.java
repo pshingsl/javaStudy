@@ -1,10 +1,11 @@
-package study.ch02;
+package javaStudy.ch02;
 
+// Scannser를 사용하기 위해 import문 추가
 import java.util.Scanner;
 
 public class ScannerExample {
     public static void main(String[] args) {
-        // 객체 객체명 = new 객체();
+        // Scannser클래스의 객체 생성
         Scanner sc = new Scanner(System.in);
 
         // 입력
