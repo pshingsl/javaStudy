@@ -1,6 +1,6 @@
 package javaStudy.ch03;
 
-public class SingleOperatorExample {
+public class Ex3_1 {
     public static void main(String[] args) {
         int a  = -100;
         System.out.println("a: " + a);
