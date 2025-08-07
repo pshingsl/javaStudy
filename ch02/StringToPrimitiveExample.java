@@ -1,4 +1,4 @@
-package study.ch02;
+package javaStudy.ch02;
 
 public class StringToPrimitiveExample {
     public static void main(String[] args) {
