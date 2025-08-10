@@ -2,7 +2,7 @@ package study.ch06;
 
 public class Ex6_9 {
     public static void main(String[] args) {
-        // 참조형 매개변수
+        // 참조형 매개변수 연습
         Data2 d2 = new Data2();
         d2.x = 20;
         System.out.println("main() : x = " + d2.x);
