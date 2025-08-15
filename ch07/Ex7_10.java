@@ -4,7 +4,6 @@ public class Ex7_10 {
     public static void main(String[] args) {
         // 업 캐스팅
         FireEngine fe = new FireEngine(4, "red");
-        Car c = (Car) fe; // 자손 -> 조상으로 형변환
         System.out.println("생성자로 생긴 문: " + c.getDoor());
         c.setDoor(2);
         System.out.println("새로운 문: " + c.getDoor());
@@ -15,7 +14,6 @@ public class Ex7_10 {
 
         // 다운 캐스팅
         System.out.println("다운 캐스팅");
-        FireEngine fe2 = (FireEngine) c; // 조상 -> 자손 형변환
 
         System.out.println("다운 캐스팅 문: " + fe2.getDoor());
         fe2.setDoor(2);
@@ -26,7 +24,6 @@ public class Ex7_10 {
         System.out.println("바뀐 색상: " + fe2.getColor());
         fe2.drive();
         fe2.stop();
-        fe2.water(); // 에러가 나야하는데 자손 클래스에서 생성자로 초기화해서 안남
 
     }
 }
