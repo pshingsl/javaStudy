@@ -1,8 +1,8 @@
-package study.ch05;
+package javaStudy.ch05;
 
 public class Ex5_8 {
     public static void main(String[] args) {
-        // 2차원 배열
+        // 2차원 배열 실습
         int score[][] = {
                 {70, 60, 40, 100},
                 {20, 40, 30, 90},
