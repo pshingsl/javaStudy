@@ -2,7 +2,7 @@ package javaStudy.ch05;
 
 public class Ex5_5 {
     public static void main(String[] args) {
-        // 문자열 배열 선언 및 초기화
+        // 문자열 배열
         String arr[] = new String[3];
 
 // 문자열 배열 선언 및 초기화
