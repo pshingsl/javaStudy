@@ -29,14 +29,14 @@ public class Ex5_5 {
             System.out.println();
 
             String tmp = arr4[i];
-            System.out.println(tmp);  // 현재 위치(i)의 값을 임시 변수에 저장
+            System.out.print("tmp: " +tmp + " ");  // 현재 위치(i)의 값을 임시 변수에 저장
 
 
             arr4[i] = arr4[r];
-            System.out.println(arr4[i]);  // 현재 위치의 값을 r번째 값으로 교체 (임시 교환 시도)
+           System.out.println(arr4[i]);  // 현재 위치의 값을 r번째 값으로 교체 (임시 교환 시도)
 
             arr4[i] = tmp;
-            System.out.println(tmp); // 교체했던 값을 다시 원래 값으로 복구 → 실제 배열은 변하지 않음
+            System.out.println("12: "+tmp); // 교체했던 값을 다시 원래 값으로 복구 → 실제 배열은 변하지 않음
         }
 
     }

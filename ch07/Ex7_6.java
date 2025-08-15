@@ -3,6 +3,7 @@ package study.ch07;
 public class Ex7_6 {
     public static void main(String[] args) {
         FinalCard fc = new FinalCard(4, "heart");
+        // fc.NUMBER=5; 생성자에서 4로 초기화한 상수여서 안됨
         fc.print();
     }
 }
