@@ -1,11 +1,11 @@
-package study.ch05;
+package javaStudy.ch05;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Ex5_4 {
     public static void main(String[] args) {
-        // 총합과 평균
+        // 배열 총합과 평균
         int[] arr = new int[5];
         int sum = 0;
 
