@@ -1,9 +1,8 @@
-package study.ch05;
+package javaStudy.ch05;
 
 public class Ex5_5 {
     public static void main(String[] args) {
-        // String 배열
-        // 문자열 배열 선언
+        // 문자열 배열 선언 및 초기화
         String arr[] = new String[3];
 
 // 문자열 배열 선언 및 초기화
