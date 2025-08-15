@@ -4,7 +4,7 @@ public class Ex7_11 {
     public static void main(String[] args) {
         FireEngine2 f2 = new FireEngine2();
 
-        // instaceOf 연산자
+        // instaceOf 연산자 실습
         if (f2 instanceof FireEngine2) {
             System.out.println("f2는 FireEngine의 인스턴스입니다.");
         }
