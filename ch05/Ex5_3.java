@@ -1,8 +1,9 @@
-package study.ch05;
+package javaStudy.ch05;
 
 import java.util.Arrays;
 
 public class Ex5_3 {
+    // 배열의 반복문 2
     public static void main(String[] args) {
         // 정수 배열
         int[] arr1 = {100, 40, 30, 10};
