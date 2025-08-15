@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ex4_4 {
     public static void main(String[] args) {
+        // switch + scanner
         Scanner sc = new Scanner(System.in);
         System.out.println("현재 월을 입력해주세요.");
 
