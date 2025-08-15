@@ -2,6 +2,7 @@ package study.ch06;
 
 public class Ex6_14 {
     public static void main(String[] args) {
+        // this 생성자
         Car2 c2 = new Car2("red", "G80", 100);
         System.out.println(c2.name);
         c2.run();
