@@ -1,11 +1,11 @@
-package study.ch05;
+package javaStudy.ch05;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Ex5_9 {
     public static void main(String[] args) {
-        // 배열의 비교와 출력
+        // 배열의 비교와 출력 및 메서드
         int[] arr = {0, 1, 2, 3, 4};
         int[][] arr2D = {{1, 2}, {3, 4}};
 
