@@ -1,8 +1,8 @@
-package study.ch05;
+package javaStudy.ch05;
 
 public class Ex5_6 {
     public static void main(String[] args) {
-        // String 클래스
+        // String 클래스 실습
         String str = "문자열 클래스";
         char ch = str.charAt(4);
         System.out.println("charAt: " + ch); //결과:클 빈공백 포함하지 않고 다음 인덱스로 나옴
