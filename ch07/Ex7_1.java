@@ -1,4 +1,4 @@
-package study.ch07;
+package javaStudy.ch07;
 
 import java.util.Scanner;
 
