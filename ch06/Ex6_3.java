@@ -7,6 +7,8 @@ public class Ex6_3 {
         for (int i = 0; i < b.length; i++) {
             b[i] = new Book();
             b[i].num = i + 10;
+            b[i].author = "저자" + (i+1);
+            b[i].setAuthor();
             b[i].bookNum();
         }
     }
