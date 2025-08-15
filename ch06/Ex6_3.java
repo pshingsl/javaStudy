@@ -1,7 +1,8 @@
-package study.ch06;
+package javaStudy.ch06;
 
 public class Ex6_3 {
     public static void main(String[] args) {
+        // 객체 배열
         Book[] b = new Book[3]; // 처음에 null로 초기화
 
         for (int i = 0; i < b.length; i++) {
