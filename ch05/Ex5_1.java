@@ -1,7 +1,8 @@
-package study.ch05;
+package javaStudy.ch05;
 
 public class Ex5_1 {
     public static void main(String[] args) {
+        // 배열
         //int[] score; // 배열 생성(참조변수)
         //score = new int[5];
         // [] 생략하면 Array initializer is not allowed here 에러 발생
