@@ -2,7 +2,7 @@ package study.ch04;
 
 public class Ex4_8 {
     public static void main(String[] args) {
-        // while 2
+        // while 2 연습
         int z = 0;
         int sum = 0;
 
