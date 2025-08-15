@@ -1,4 +1,4 @@
-package study.ch06;
+package javaStudy.ch06;
 
 public class Ex6_7 {
     public static void main(String[] args) {
