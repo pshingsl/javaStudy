@@ -3,6 +3,7 @@ package study.ch04;
 import java.util.Scanner;
 
 public class Ex4_3 {
+    // if-else if
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("숫자를 입력해주세요.");
