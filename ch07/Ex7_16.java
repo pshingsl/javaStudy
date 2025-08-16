@@ -6,7 +6,7 @@ public class Ex7_16 {
         Fighter f = new Fighter();
         System.out.println();
 //      Unit2 f = new Fighter(); Unit2에는 attack()이 없어서 호출 불가
-        f.move(2,5); 
+        f.move(2, 5);
         f.attack(new Fighter());
         f.stop();
         System.out.println();
@@ -21,7 +21,7 @@ public class Ex7_16 {
         // abstract class Unit2에 정의된거만 사용 가능 -> 인터페이스에 정의된거만 사용 가능
         System.out.println("추상 클래스 Unit2");
         Unit2 u = new Fighter();
-        u.move(2,5);
+        u.move(2, 5);
         u.stop();
         System.out.println();
         // u.attack(); 오류 -> Unit2에는 attack();이 없어서이다.
@@ -29,9 +29,12 @@ public class Ex7_16 {
         // interface Figthtable 메소드만 사용가능 -> 인터페이스에 정의된거만 사용 가능
         System.out.println("Fightable 인터페이스");
         Figthtable f2 = new Fighter();
-        f2.move(2,3);
+        f2.move(2, 3);
         f2.attack(f2);
         // f2.stop(); -> Figthtable 인터페이스에는 stop이 없어서 안됨
+
+        // 인터페이스 메소드 리턴 반환
+        Figthtable f3 =  f.getFightable(); // Figthtable반환 타입어서 앞에 Figthtable 맞춰야한다.
     }
 }
 
@@ -65,6 +68,12 @@ class Fighter extends Unit2 implements Figthtable {
 
     public void attack(Figthtable f) {
         System.out.println(f + "를 공격");
+    }
+
+    // 인터페이스 메소드 리턴
+    Figthtable getFightable() {
+        Fighter f = new Fighter();
+        return f; // f앞에 (Fightable) 생략
     }
 }
 
