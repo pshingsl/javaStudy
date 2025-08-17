@@ -54,5 +54,20 @@ public class Ex9_6 {
         StringBuffer s1 = new StringBuffer("0123456");
         s1.reverse(); // 6543210
 
+        // 지정된 문자를 주어진 문자(ch)롭 바꾼다
+        // setCharAt()
+        StringBuffer s2 = new StringBuffer("0123456");
+        s2.setCharAt(4, 's'); // 0123s56
+
+        // StringBuffer인스턴스의 문자열을 String으로 반환
+        // toString()
+        StringBuffer s3= new StringBuffer("0123456");
+        s3.toString(); // 0123456
+
+        // 문자열 범위 반환
+        // subString()
+        StringBuffer s4= new StringBuffer("0123456");
+        String str1 = s4.substring(4); // 456
+        String str2 = s4.substring(2,3);    // 2
     }
 }
