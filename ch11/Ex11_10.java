@@ -1,8 +1,7 @@
-package javaStudy.ch10;
+package javaStudy.ch11;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Objects;
 
 public class Ex11_10 {
     public static void main(String[] args) {
