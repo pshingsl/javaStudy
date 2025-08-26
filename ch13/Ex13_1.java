@@ -23,13 +23,30 @@ public class Ex13_1 {
     }
 
     // 1. 메소드의 이름과 반환타입을 제거하고 '->'를 {}앞에 추가
+    /*
+    *   int add(int a, int b) {
+    *    return a+b;
+    *    }
+    * */
     // (a, b) -> a+b;
     // x x*x;
 
     // 2.반환값이 있는 경우, 식이나 값만 적고 return문 생략 가능
+    /**
+     * int random() {
+     *   return  (int)(Math.random*6);
+     * }
+     */
     // () -> (int)(Math.random*6);
 
     // 3. 매개변수 타입 추론가능하면 생략가능
+    /*
+     * void print(String name, int i) {
+     *  System.out.println(name+"="+i);
+     * }
+     *
+    /
+     */
     // (name, i) -> System.out.println(name+"="+i);
 
     // 주의사항
