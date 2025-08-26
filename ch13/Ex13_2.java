@@ -20,4 +20,6 @@ public class Ex13_2 {
 @FunctionalInterface // 함수형 인터페이스는 단 하나의 추상 메소드만 가져야한다.
 interface MyFunction {
     public abstract int max(int a, int b);
+
+    // public abstract int add(int a, int b); 하나만 존재해야한다.
 }
